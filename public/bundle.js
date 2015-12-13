@@ -44,8 +44,10 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(1);
-	var Router = __webpack_require__(158);
+	var Router = __webpack_require__(158).Router;
 	var routes = __webpack_require__(204);
 
 	Router.run(routes, function (Root) {
@@ -23977,22 +23979,27 @@
 /* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(1);
 	var Main = __webpack_require__(205);
 	var Home = __webpack_require__(206);
 	var Router = __webpack_require__(158);
 	var DefaultRoute = Router.DefaultRoute;
 	var Route = Router.Route;
+	// var IndexRoute = Router.IndexRoute;
 
 	module.exports = React.createElement(
 	  Route,
 	  { name: 'app', path: '/', handler: Main },
-	  React.createElement(DefaultRoute, { handler: Home })
+	  React.createElement(Default, { handler: Home })
 	);
 
 /***/ },
 /* 205 */
 /***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
 
 	var React = __webpack_require__(1);
 	var RouteHandler = __webpack_require__(158).RouteHandler;
@@ -24000,7 +24007,7 @@
 	var Main = React.createClass({
 	  displayName: 'Main',
 
-	  render: function () {
+	  render: function render() {
 	    return React.createElement(
 	      'div',
 	      { className: 'main-container' },
@@ -24028,12 +24035,14 @@
 /* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
 	var React = __webpack_require__(1);
 
 	var Home = React.createClass({
 	  displayName: "Home",
 
-	  render: function () {
+	  render: function render() {
 	    return React.createElement(
 	      "h2",
 	      { className: "text-center" },

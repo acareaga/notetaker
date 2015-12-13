@@ -1,29 +1,23 @@
 {
   "name": "notetaker",
   "version": "1.0.0",
-  "description": "NoteTaker",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acareaga/notetaker.git"
-  },
-  "author": "",
+  "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://aaroncareaga.com)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/acareaga/notetaker/issues"
-  },
-  "homepage": "https://github.com/acareaga/notetaker#readme",
   "dependencies": {
+    "history": "^1.13.1",
     "react": "^0.14.3",
-    "react-router": "^1.0.2"
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.3.13",
-    "webpack": "^1.12.9"
+    "babel-preset-react": "^6.3.13"
   }
 }
