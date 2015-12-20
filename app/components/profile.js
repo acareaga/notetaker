@@ -3,7 +3,6 @@ var Router = require('react-router');
 var Repos = require('./Github/Repos')
 var UserProfile = require('./Github/UserProfile')
 var Notes = require('./Notes/Notes')
-
 var Profile = React.createClass({
   getInitialState: function(){
     return {
