@@ -10,11 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/acareaga/notetaker.git"
   },
-  "author": "",
+  "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://aaroncareaga.com)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/acareaga/notetaker/issues"
-  },
   "homepage": "https://github.com/acareaga/notetaker#readme",
   "dependencies": {
     "history": "^1.13.1",
